@@ -33,7 +33,7 @@ extern "C" {
 #define BATTERYCURRENT_MAX 23000 // 10A, 36V battery, 350W limit
 #define REGEN_CURRENT_MAX 15000
 
-#define P_FACTOR_I_Q 400
+#define P_FACTOR_I_Q 50
 #define I_FACTOR_I_Q 2
 #define P_FACTOR_I_D 100
 #define I_FACTOR_I_D 10
@@ -48,10 +48,6 @@ extern "C" {
 #define I_FACTOR_PLL 8 // 8 for original M365 motor
 #define SIXSTEPTHRESHOLD 9000
 
-// TSDZ2 36V motor
-// #define P_FACTOR_PLL 6
-// #define I_FACTOR_PLL 8
-// #define SIXSTEPTHRESHOLD 27000
 
 #define Phase_Current_1_Pin GPIO_PIN_3
 #define Phase_Current_1_GPIO_Port GPIOA
