@@ -41,7 +41,7 @@ extern "C" {
 
 #define SPEEDFILTER 3
 #define SPEC_ANGLE -167026406L
-#define REVERSE -1 // 1 for original M365 motor
+#define REVERSE 1 // 1 for original M365 motor
 
 // M365 motor
 #define P_FACTOR_PLL 8 // 8 for original M365 motor
