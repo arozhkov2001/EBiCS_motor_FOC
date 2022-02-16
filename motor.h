@@ -24,16 +24,16 @@ extern "C" {
 #define CAL_BAT_V 13 	// ADC counts * CAL_BAT_V = Battery voltage in mV
 
 // battery voltage limits in mV
-#define BATTERYVOLTAGE_MIN 33000
+#define BATTERYVOLTAGE_MIN 29000
 #define BATTERYVOLTAGE_MAX 42000
 
 #define CAL_I 38 // ADC counts * CAL_I = current in mA
 
 // maximum currents in mA
-#define BATTERYCURRENT_MAX 10000 // 10A, 36V battery, 350W limit
-#define REGEN_CURRENT_MAX 6000
+#define BATTERYCURRENT_MAX 23000 // 10A, 36V battery, 350W limit
+#define REGEN_CURRENT_MAX 15000
 
-#define P_FACTOR_I_Q 100
+#define P_FACTOR_I_Q 400
 #define I_FACTOR_I_Q 2
 #define P_FACTOR_I_D 100
 #define I_FACTOR_I_D 10
@@ -41,7 +41,7 @@ extern "C" {
 
 #define SPEEDFILTER 3
 #define SPEC_ANGLE -167026406L
-#define REVERSE 1 // 1 for original M365 motor
+#define REVERSE -1 // 1 for original M365 motor
 
 // M365 motor
 #define P_FACTOR_PLL 8 // 8 for original M365 motor
